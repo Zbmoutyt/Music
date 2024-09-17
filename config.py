@@ -16,9 +16,9 @@ OWNER_USERNAME = getenv("OWNER_USERNAME","CHADDI_CHOR")
 # Get Your bot username
 BOT_USERNAME = getenv("BOT_USERNAME" , "Sizhoo_Music_Bot")
 # Don't Add style font 
-BOT_NAME = getenv("BOT_NAME" , "˹sɪᴢʜᴏᴏ˼ ✘ ˹ᴍᴜsɪᴄ˼")
+BOT_NAME = getenv("BOT_NAME" , "˹ᴀɴɢʀʏ𓅜 ʙɪʀᴅ˼ ✘ ˹ᴍᴜsɪᴄ˼")
 #get Your Assistant User name
-ASSUSERNAME = getenv("ASSUSERNAME" , "Sizhoo_Music_Assistant")
+ASSUSERNAME = getenv("ASSUSERNAME" , "Angry_Music_Assistant")
 EVALOP = list(map(int, getenv("EVALOP", "7176027733").split()))
 # Get your mongo url from cloud.mongodb.com
 MONGO_DB_URI = getenv("MONGO_DB_URI", None)
@@ -46,8 +46,8 @@ GIT_TOKEN = getenv(
    "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/WLC_TO_ROYALS")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/WLC_TO_ROYALS")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", https://t.me/angrybird_worldx)
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/angrybird_worldx")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
