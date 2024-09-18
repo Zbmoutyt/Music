@@ -21,7 +21,7 @@ BOT_NAME = getenv("BOT_NAME" , "˹ᴀɴɢʀʏ𓅜 ʙɪʀᴅ˼ ✘ ˹ᴍᴜsɪᴄ
 ASSUSERNAME = getenv("ASSUSERNAME" , "Angry_Music_Assistant")
 EVALOP = list(map(int, getenv("EVALOP", "7176027733").split()))
 # Get your mongo url from cloud.mongodb.com
-MONGO_DB_URI = getenv("MONGO_DB_URI", None)
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://RUDRA_JAAT1:RUDRAJAAT@rudrajaat.zbir7lx.mongodb.net/?retryWrites=true&w=majority")
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 17000))
 
