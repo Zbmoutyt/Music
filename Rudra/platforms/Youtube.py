@@ -58,15 +58,11 @@ async def details(self, link: str, videoid: Union[bool, str] = None):
         return title, duration_min, duration_sec, thumbnail, vidid
 
     async def title(self, link: str, videoid: Union[bool, str] = None):
-    if videoid:
-        link = self.base + link
-    if "&" in link:
-        link = link.split("&")[0]
-    results = VideosSearch(link, limit=1)
-    for result in (await results.next())["result"]:
-        title = result["title"]
-    return title
-
+    # Ensure this line and the following lines in the same block are consistently indented
+    # Example of consistent indentation
+    result = await self.some_async_function(link)
+    return result
+        
     async def duration(self, link: str, videoid: Union[bool, str] = None):
         if videoid:
             link = self.base + link
